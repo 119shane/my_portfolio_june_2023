@@ -220,7 +220,7 @@ header .logo span {
 
 footer {
     padding-top: 1em;
-    border-top: 2px solid var(--animation_green);
+    border-top: .5px solid var(--green);
 }
 
 .footer--links {
@@ -352,6 +352,7 @@ a */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 3;
+        padding-bottom: 1.5em;
     }
     .project {
         padding: 1em;
@@ -380,11 +381,6 @@ a */
     .wrapper {
         padding: .5em 3.5em;
     }
-    /* .skills_container {
-        width: 85%;
-        max-width: 900px;
-        margin: 0 auto;
-    } */
     .service {
         gap: 2em;
     }
