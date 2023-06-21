@@ -9,3 +9,10 @@ menuBtn.addEventListener('click', ()=> {
 backBtn.addEventListener('click', ()=> {
     leftCol.style.transform = 'translateX(-100%)'
 })
+
+
+
+
+var tl = gsap.timeline({defaults:{duration: .4}});
+
+tl.from(".hero", {y: 50, opacity: 0})
