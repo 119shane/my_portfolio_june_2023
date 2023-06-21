@@ -151,6 +151,7 @@ header .logo span {
 
 .skill {
     padding: .25em .75em;
+    width: fit-content;
     border-radius: 20px;
     border: 1px solid var(--green);
     background: var(--bg-second);
@@ -409,7 +410,7 @@ a */
 ---letter spacing title
 ---animation like GS proj
 ---add skills if any
----
+---skill width - eliet panel
 */
 
 
