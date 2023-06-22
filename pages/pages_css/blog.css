@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@100&display=swap');
+
+:root {
+    --wrapper-bg: #181818;
+    --text: #fff;
+    --text-secondary: #a9a9a9;
+    --bg-second: #212121;
+    --hover_dark_gray: #434343;
+    --green: #00e472;
+    --animation_green: #6BFF4C;
+
+    --normal_letter_spacing: 1px;
+    --normal_line_height: 1.5;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* blog_container */
+* {
+    font-size: .95rem;
+}
+.all_blogs {
+    display: flex;;
+    gap: 1em;
+}
+
+.blog_summery {
+    width: 30%;
+    max-height: 90vh;
+}
+
+.blog_container {
+    width: 70%;
+}
+
+.blog {
+    max-height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    background: var(--bg-second);
+    color: var(--text-secondary);
+}
+
+
+
+
+
+/* 
+
+
+small
+h3
+intoduction
+blog_content
+ */
+
+@media (min-width: 650px) {
+    * {
+        font-size: .98rem;
+    }
+    .wrapper {
+        padding: .5em 1em;
+    }
+}
+
+@media (min-width: 920px) {
+    * {
+        font-size: 1rem;
+    }
+    .wrapper {
+        padding: .5em 2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    * {
+        font-size: 1.05rem;
+    }
+    .wrapper {
+        padding: .5em 3em;
+    }
+    
+}

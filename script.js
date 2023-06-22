@@ -11,8 +11,3 @@ backBtn.addEventListener('click', ()=> {
 })
 
 
-
-
-var tl = gsap.timeline({defaults:{duration: .4}});
-
-tl.from(".hero", {y: 50, opacity: 0})
