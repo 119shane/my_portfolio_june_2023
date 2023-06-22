@@ -55,10 +55,6 @@ header a {
     color: var(--text);
 }
 
-header a:visited {
-    color: var(--text);
-}
-
 header .logo {
     font-size: 1.5em;
 }
@@ -240,6 +236,12 @@ footer {
 
 .footer--links a {
     cursor: pointer;
+    color: var(--text);
+}
+
+.footer--links a:visited {
+    cursor: pointer;
+    color: var(--text);
 }
 
 .footer_logo {

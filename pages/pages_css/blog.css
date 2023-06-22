@@ -18,35 +18,73 @@
     box-sizing: border-box;
 }
 
-/* blog_container */
-* {
-    font-size: .95rem;
-}
-.all_blogs {
-    display: flex;;
-    gap: 1em;
+h2 {
+    font-size: 1.5em;
 }
 
-.blog_summery {
-    width: 30%;
-    max-height: 90vh;
+h3 {
+    font-size: 1.2em;
 }
+
+/* all blogs */
+
+* {
+    font-size: 1rem;
+}
+
+span {
+    font-size: 1em;
+}
+
+/* blog container */
 
 .blog_container {
-    width: 70%;
+    /* width: 70%; */
 }
 
 .blog {
-    max-height: 200px;
-    overflow-y: scroll;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
     padding: 1em;
     background: var(--bg-second);
-    color: var(--text-secondary);
+    color: var(--text);
+    -webkit-box-shadow: 0px 0px 10px -2px var(--green);
+    -moz-box-shadow: 0px 0px 10px -2px var(--green);
+    box-shadow: 0px 0px 10px -2px var(--green) ;
 }
 
 
+.blog h3{
+   position: relative;
+}
 
+.blog h3::after {
+    position: absolute;
+    content: '';
+    width: 75%;
+    bottom: 0;
+    left: 2em;
+    height: .5px;
+    background: var(--green);
+}
+
+.post {
+    max-height: 300px;
+    overflow-y: scroll;
+    color: var(--text-secondary);
+    padding: .2em;
+    line-height: var(--normal_line_height);
+    letter-spacing: var(--normal_letter_spacing);
+}
+
+.introduction {
+    color: var(--text);
+    font-size: 1.05em;
+    font-style: oblique;
+}
+
+.blog_content {
+    padding: .3em;
+}
 
 
 /* 
