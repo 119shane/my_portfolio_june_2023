@@ -223,7 +223,6 @@ header .logo span {
 
 footer {
     padding-top: 1em;
-    /* border-top: .5px solid var(--green); */
     text-align: center;
 }
 
@@ -257,6 +256,11 @@ footer small {
 
 footer small:last-of-type {
     margin-bottom: 1em;
+}
+
+.version {
+    font-size: .5rem;
+    color: var(--green);
 }
 
                         /* left col  */
