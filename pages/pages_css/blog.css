@@ -88,7 +88,7 @@ span {
         font-size: .98rem;
     }
     .wrapper {
-        padding: .5em 1em;
+        padding: .5em 3.5em;
     }
 }
 
@@ -97,7 +97,7 @@ span {
         font-size: 1rem;
     }
     .wrapper {
-        padding: .5em 2em;
+        padding: .5em 5em;
     }
 }
 
@@ -106,7 +106,7 @@ span {
         font-size: 1.05rem;
     }
     .wrapper {
-        padding: .5em 3em;
+        padding: .5em 10em;
     }
     
 }
