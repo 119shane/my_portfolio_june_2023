@@ -140,6 +140,7 @@ a */
     }
     .right {
         width: 40%;
+        margin: unset;
     }
     .projects_category::after {
         width: 60%;
