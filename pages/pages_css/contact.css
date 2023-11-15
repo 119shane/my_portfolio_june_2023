@@ -87,7 +87,7 @@ span {
   /* position:absolute;
   top:-1.5rem;
   right:2%; */
-  display: block;
+  display: none;
   height: 2.75rem;
   width: 120px;
   margin: 0 auto;
